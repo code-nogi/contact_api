@@ -1,0 +1,22 @@
+{
+  "name": "contact-api",
+  "version": "1.0.0",
+  "description": "Mail sender API from websites contact forms developed by !gi.",
+  "license": "MIT",
+  "author": "!gi",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "resend": "^6.1.3",
+    "validator": "^13.15.35"
+  }
+}

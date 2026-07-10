@@ -4,6 +4,7 @@
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
+  "http://localhost:5500",
   "https://nogradijozsef.hu",
   "https://sono-vic.hu",
 ];
